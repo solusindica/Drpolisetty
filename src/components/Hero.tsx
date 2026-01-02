@@ -1,4 +1,5 @@
 import { Play, Sparkles, ChevronDown } from "lucide-react";
+import drprsimg from "../assets/drprsimg.png";
 
 export default function Hero() {
 
@@ -119,7 +120,7 @@ export default function Hero() {
           >
             <div className="rounded-xl overflow-hidden">
               <img
-                src="drprsimg.png"
+                src={drprsimg}
                 alt="Dr. Ravishankar Polisetty"
                 className="w-full h-full object-cover"
               />

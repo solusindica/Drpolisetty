@@ -1,4 +1,5 @@
 import { Heart, Dna, Brain, Globe2 } from 'lucide-react';
+import drprs2 from "../assets/drprs2.png";
 
 export default function About() {
   const expertise = [
@@ -85,7 +86,7 @@ export default function About() {
             >
               <div className="rounded-xl overflow-hidden">
                 <img
-                  src="drprs2.png"
+                  src={drprs2}
                   alt="Dr. Ravishankar Polisetty"
                   className="w-full h-full object-cover"
                 />

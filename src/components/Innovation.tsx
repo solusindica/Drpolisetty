@@ -1,4 +1,5 @@
 import { Activity, Smartphone, Database, Sparkles } from 'lucide-react';
+import dpimg from "../assets/dpimg.jpeg";
 
 export default function Innovation() {
   const features = [
@@ -127,7 +128,7 @@ export default function Innovation() {
             >
               <div className="rounded-xl overflow-hidden">
                 <img
-                  src="dpimg.jpeg"
+                  src={dpimg}
                   alt="Docture-Poly Device"
                   className="w-full h-full object-cover"
                 />
